@@ -1,9 +1,10 @@
-package org.superbiz.moviefun;
+package org.superbiz.moviefun.albums;
 
 import org.junit.Test;
+import org.superbiz.moviefun.ServiceCredentials;
 
 import static org.hamcrest.core.IsEqual.equalTo;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
 public class ServiceCredentialsTest {
     @Test
