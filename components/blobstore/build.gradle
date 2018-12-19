@@ -11,8 +11,6 @@ dependencies {
     compile "org.hibernate:hibernate-core:$hibernateVersion"
     compile "org.slf4j:slf4j-api:$slf4jVersion"
 
-    compile project(":components:blobstore")
-
     compile "org.apache.tika:tika-core:1.14"
     compile "com.amazonaws:aws-java-sdk:1.11.74"
 
